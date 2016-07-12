@@ -29,6 +29,7 @@ public class CodeCounter {
 			if (f.getName().matches(".*\\.java$")){ // 匹配java格式的文件
 				count(f);
 				System.out.println(f);
+				System.out.println("ddd");
 			}
 		}
 		System.out.println("统计文件：" + files);
